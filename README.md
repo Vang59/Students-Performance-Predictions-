@@ -7,6 +7,7 @@
 
 ### Contributors 
 Explore our contributors' other works and learn more about them. 
+
 &#10024; [Mary Vang](https://github.com/Vang59)
 
 &#10024; [Will Thomer](https://github.com/Siskeaux)

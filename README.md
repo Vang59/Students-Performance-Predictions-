@@ -1,4 +1,4 @@
-# Student-Performance-Predictions-
+# Student Performance Predictions
 
 <!-- ![](Images/Group1.png) -->
 <p align="center">
@@ -16,26 +16,19 @@ Explore our contributors' other works and learn more about them.
 
 &#10024;[Nou Yang](https://github.com/nouyang0620)
 
-## Overview of the Analysis
+# Overview of the Analysis
 Using machine learning, we aim to analyze the various factors that can impact a high school student's academic performance. Our objective is to determine if there is a correlation between a student's circumstances and their overall performance on math, reading, and writing exams. Subsequently, we plan to develop a machine learning model that can predict a student's performance based on these features. 
 
-## Results
-* **Libraries and methods**
-    * Pandas
-        * hvplot.pandas
-    * Numpy 
-    * imblearn.under_sampling
-        * RandomUnderSampler
-        * RandomOverSampler 
-    * sklyearn.model_selection
-        * train_test_split
-    * sklearn.tree
-        * DecisionTreeRegressor
-    * sklyearn.metrics
-        * r2_score 
+#  Process 
+<p align="center">
+    <img src="Images/ml.jpg" alt="Group Image" width="600">
+</p>
 
-* **Data Processing** 
+* **Data:** [exams.csv](Resources/Student_DataType_Conversion.csv)
     * **Disclaimer:** To eliminate potential bias, ethnic groups have been anonymized. 
+    * [Columns Reference](Images/NumericConversionReference.png)
+
+* **Preprocessing:**
     * Labels (y): 
         * math score
         * reading score
@@ -49,22 +42,28 @@ Using machine learning, we aim to analyze the various factors that can impact a 
         * math score
         * reading score
         * writing score
-    * [Columns Reference](Images/NumericConversionReference.png)
+    * train_test_split 
+* **Algorithm:**
+    * [RandomUverSampler](https://imbalanced-learn.org/dev/references/generated/imblearn.under_sampling.RandomUnderSampler.html)
+    * [RandomOverSampler](https://imbalanced-learn.org/dev/references/generated/imblearn.over_sampling.RandomOverSampler.html)
+    * [DecisionTreeRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html)
+    * [r2_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.r2_score.html)
+
+* **Math Score Prediction**
+
+![math](Images/math.png)
+
+* **Reading Score Prediction**
+
+![reading](Images/reading.png)
+
+* **Writing Score Prediction**
+
+![writing](Images/writing.png)
 
 
-* **Model Evaluations** 
-    * Correlations: 
 
-    * Math 
-    ![math](Images/math.png)
-
-    * Reading
-    ![reading](Images/reading.png)
-
-    * Writing 
-    ![writing](Images/writing.png)
-
-## Summary
+# Summary
 
 * It is our conclusion that certain conditions do in fact impact a student's academic performance when it comes to exam scores. 
     * Gender: Female students have higher average exam scores in Reading and Writing however, Male students have higher average exam scores in Math.

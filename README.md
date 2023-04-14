@@ -2,7 +2,8 @@
 
 <!-- ![](Images/Group1.png) -->
 <p align="center">
-    <img src="Images/Group1.png" alt="Group Image" width="600">
+    <img src="Images/Group1.png" alt="Group Image" width="700"
+    height="450">
 </p>
 
 ### Contributors 
@@ -21,7 +22,7 @@ Using machine learning, we aim to analyze the various factors that can impact a 
 
 #  Process 
 <p align="center">
-    <img src="Images/ml.jpg" alt="Group Image" width="600">
+    <img src="Images/ml.jpg" alt="Group Image" width="650" height="350">
 </p>
 
 * **Data:** [exams.csv](Resources/Student_DataType_Conversion.csv)
@@ -50,18 +51,19 @@ Using machine learning, we aim to analyze the various factors that can impact a 
     * [r2_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.r2_score.html)
 
 * **Math Score Prediction**
-
-![math](Images/math.png)
+<p align="center">
+    <img src="Images/math.png" alt="Group Image" width="600" height="300">
+</p>
 
 * **Reading Score Prediction**
-
-![reading](Images/reading.png)
+<p align="center">
+    <img src="Images/reading.png" alt="Group Image" width="600" height="300">
+</p>
 
 * **Writing Score Prediction**
-
-![writing](Images/writing.png)
-
-
+<p align="center">
+    <img src="Images/writing.png" alt="Group Image" width="600" height="300">
+</p>
 
 # Summary
 

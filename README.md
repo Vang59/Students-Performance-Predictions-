@@ -48,13 +48,13 @@ Using machine learning, we aim to analyze the various factors that can impact a 
     * Correlations: 
 
     * Math 
-    ![](Images/math.png)
+    ![math](Images/math.png)
 
     * Reading
-    ![](Images/reading.png)
+    ![reading](Images/reading.png)
 
     * Writing 
-    ![](Images/writing.png)
+    ![writing](Images/writing.png)
 
 ## Summary
 

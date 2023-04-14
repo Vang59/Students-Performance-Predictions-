@@ -45,7 +45,7 @@ Using machine learning, we aim to analyze the various factors that can impact a 
         * writing score
     * train_test_split 
 * **Algorithm:**
-    * [RandomUverSampler](https://imbalanced-learn.org/dev/references/generated/imblearn.under_sampling.RandomUnderSampler.html)
+    * [RandomUnderSampler](https://imbalanced-learn.org/dev/references/generated/imblearn.under_sampling.RandomUnderSampler.html)
     * [RandomOverSampler](https://imbalanced-learn.org/dev/references/generated/imblearn.over_sampling.RandomOverSampler.html)
     * [DecisionTreeRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html)
     * [r2_score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.r2_score.html)

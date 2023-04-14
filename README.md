@@ -7,10 +7,13 @@
 
 ### Contributors 
 Explore our contributors' other works and learn more about them. 
-* [Mary Vang](https://github.com/Vang59)
-* [Will Thomer](https://github.com/Siskeaux)
-* [Kameron Thao](https://github.com/KThao17)
-* [Nou Yang](https://github.com/nouyang0620)
+&#10024; [Mary Vang](https://github.com/Vang59)
+
+&#10024; [Will Thomer](https://github.com/Siskeaux)
+
+&#10024; [Kameron Thao](https://github.com/KThao17)
+
+&#10024;[Nou Yang](https://github.com/nouyang0620)
 
 ## Overview of the Analysis
 Using machine learning, we aim to analyze the various factors that can impact a high school student's academic performance. Our objective is to determine if there is a correlation between a student's circumstances and their overall performance on math, reading, and writing exams. Subsequently, we plan to develop a machine learning model that can predict a student's performance based on these features. 
@@ -22,6 +25,7 @@ Using machine learning, we aim to analyze the various factors that can impact a 
     * Numpy 
     * imblearn.under_sampling
         * RandomUnderSampler
+        * RandomOverSampler 
     * sklyearn.model_selection
         * train_test_split
     * sklearn.tree
@@ -41,6 +45,9 @@ Using machine learning, we aim to analyze the various factors that can impact a 
         * parental level of education
         * lunch
         * test preparation course
+        * math score
+        * reading score
+        * writing score
     * [Columns Reference](Images/NumericConversionReference.png)
 
 

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Math Score Predictor</title>
+  </head>
+  <body>
+    <h1>Student Math Score Predictor</h1>
+    <form method="POST" enctype="multipart/form-data">
+      <label for="file">Upload CSV file:</label>
+      <input type="file" name="file" id="file"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+    {% if math_pred is defined and math_pred.all() %}
+      <p>Predicted math scores:</p>
+      <ul>
+        {% for math_score in math_pred %}
+          <li>{{ math_score }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+    <!--Reading-->
+    {% if reading_pred is defined and reading_pred.all() %}
+      <p>Predicted reading scores:</p>
+      <ul>
+        {% for reading_score in reading_pred %}
+          <li>{{ reading_score }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+    {% if writing_pred is defined and writing_pred.all() %}
+      <p>Predicted writing scores:</p>
+      <ul>
+        {% for writing_score in writing_pred %}
+          <li>{{ writing_score }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </body>
+</html>

@@ -45,7 +45,7 @@ Using machine learning, we aim to analyze the various factors that can impact a 
         * writing score*
     * train_test_split 
     * *The columns used in the prediction model may vary depending on the specific features that are deemed relevant for predict the targert variable. 
-* **Algorithm:**
+* **Algorithm/Techniques:**
     * [RandomUnderSampler](https://imbalanced-learn.org/dev/references/generated/imblearn.under_sampling.RandomUnderSampler.html)
     * [RandomOverSampler](https://imbalanced-learn.org/dev/references/generated/imblearn.over_sampling.RandomOverSampler.html)
     * [DecisionTreeRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html)
